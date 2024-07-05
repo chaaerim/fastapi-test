@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fastapi-test"
+version = "0.0.0"
+description = "FastAPI playground"
+authors = ["chaaerim"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = {extras = ["all"], version = "^0.111.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
